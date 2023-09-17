@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Safe",
+    "slug": "safe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/App/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/App/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/App/logoo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fundstartupapp.safe"
+    },
+    "web": {
+      "favicon": "./assets/App/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e483483f-b2bd-4e12-b293-0095cffc3920"
+      }
+    }
+  }
+}
